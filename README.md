@@ -1,4 +1,4 @@
-# IT-Park, JS home work
+# IT-Park, JS Homework
 1. cofemat.js
 2. roadTrip.js
 3. wallpaper.js
