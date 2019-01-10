@@ -1,4 +1,4 @@
-import {cofemat} from "../js/cofemat";
+import {cofemat} from "../js/lib";
 
 test('select number of drink, put money and get change', () => {
     const drinkNumb = 40;
