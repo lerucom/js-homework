@@ -1,7 +1,6 @@
 export function cofemat(drinkNumb, money) {
     let change = money; // если выбрал несуществующий номер напитка, возвращается вся сумма
-    let moneyLimit = 100;
-    if (money > 0 && money <= moneyLimit) { // сумма от 0 до 100, или ошибка
+
         switch (drinkNumb) {
             case 30: {
                 let coffee3In1 = 30;
@@ -43,9 +42,8 @@ export function cofemat(drinkNumb, money) {
             }
                 break;
 
+            default: change = money;
+
         }
         return change;
-    } else {
-        console.log('Error: money limit = 100')
-    }
 }
