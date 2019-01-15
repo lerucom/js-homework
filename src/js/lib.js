@@ -33,9 +33,6 @@ export function cofemat(drinkNumb, money) {
             }
         }
             break;
-
-        default:
-            change = money;
     }
 
     return change;
