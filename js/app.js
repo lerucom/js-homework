@@ -1,6 +1,6 @@
 import {cofemat} from "./lib.js";
 
-const drinkNumbEl = document.getElementById('drinkNumb');
+const drinkNumbEl = document.getElementById('drink-number');
 const moneyEl = document.getElementById('money');
 const calculateEl = document.getElementById('calculate');
 const resultEl = document.getElementById('result');
