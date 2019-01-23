@@ -1,6 +1,6 @@
 export function cofemat(drinkNumb, money) {
     let change = money; // если выбрал несуществующий номер напитка, возвращается вся сумма
-    const coffees = { // можно было сделать через массив объектов, чтобы хранить доп. инфу о напитке
+    const coffees = {
         30: 30,
         35: 35,
         40: 40,
