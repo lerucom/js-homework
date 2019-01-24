@@ -1,14 +1,15 @@
 export function cofemat(drinkNumb, money) {
-    let change = money; // если выбрал несуществующий номер напитка, возвращается вся сумма
+    let change = money;
     const coffees = {
-        30: 30,
-        35: 35,
-        40: 40,
-        45: 45
+        'americana': 30,
+        'cappuccino': 35,
+        'espresso': 40,
+        'latte': 45
     };
 
-    if (money >= drinkNumb && coffees[drinkNumb]) {
-        change = money - drinkNumb;
+    if (money >= coffees[drinkNumb]) {
+        change = money - coffees[drinkNumb];
     }
+
     return change;
 }
