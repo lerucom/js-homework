@@ -1,4 +1,4 @@
-export function cofemat(drinkNumb, money) {
+export function cofemat(drinkName, money) {
     let change = money;
     const coffees = {
         'americana': 30,
@@ -7,8 +7,8 @@ export function cofemat(drinkNumb, money) {
         'latte': 45
     };
 
-    if (money >= coffees[drinkNumb]) {
-        change = money - coffees[drinkNumb];
+    if (money >= coffees[drinkName]) {
+        change = money - coffees[drinkName];
     }
 
     return change;
